@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
   const [color, seColor] = useState("olive");
-  const date = Date.now();
+  const date = new Date().toLocaleDateString();
   return (
     <>
       <div
