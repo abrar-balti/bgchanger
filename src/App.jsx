@@ -9,9 +9,13 @@ function App() {
         className="w-full h-screen flex flex-col justify-between items-center p-10"
         style={{ backgroundColor: color }}
       >
-        <div>
-          <h1>Select the Color you love</h1>
-          <h3>Date: {date}</h3>
+        <div className="flex flex-col justify-center items-center">
+          <h1 className="text-white font-bold text-2xl">
+            Select the Color you love
+          </h1>
+          <h3 className="font-bold text-red-600 bg-white p-4 rounded-full">
+            Date: {date}
+          </h3>
         </div>
         <div className="btn-parent bg-white w-fit p-4 rounded-full flex  gap-2">
           <button
